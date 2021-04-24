@@ -10,6 +10,7 @@
   "dependencies": {
     "dat.gui": "^0.7.7",
     "gsap": "^3.6.1",
+    "surge": "^0.23.0",
     "three": "^0.128.0"
   }
 }
