@@ -1,7 +1,7 @@
-import * as THREE from "https://unpkg.com/three@0.127.0/build/three.module.js"
-import * as dat from 'dat.GUI'
+import * as THREE from 'three'
+import * as dat from 'dat.gui'
 import gsap from 'gsap'
-import { OrbitControls } from 'https://unpkg.com/three@0.126.1/examples/jsm/controls/OrbitControls.js'
+import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js'
 
 
 console.log(dat);
