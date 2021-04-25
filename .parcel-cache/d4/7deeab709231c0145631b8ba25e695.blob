@@ -1,0 +1,30 @@
+* {
+    background-color: #7700ff;
+    margin: 20px;
+}
+
+body {
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+.hand {
+    max-width: 50%; 
+    min-width: 300px;
+    width: 300px;
+    height: auto;
+}
+
+.work {
+    text-justify: auto;
+    color: lightblue;
+    border: darkblue;
+
+}
+
+button {
+    background-color: blanchedalmond;
+}
