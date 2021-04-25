@@ -117,7 +117,7 @@ parcelRequire = (function (modules, cache, entry, globalName) {
   }
 
   return newRequire;
-})({"node_modules/three/build/three.module.js":[function(require,module,exports) {
+})({"../node_modules/three/build/three.module.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -36046,7 +36046,7 @@ if (typeof window !== 'undefined') {
     window.__THREE__ = REVISION;
   }
 }
-},{}],"node_modules/dat.gui/build/dat.gui.module.js":[function(require,module,exports) {
+},{}],"../node_modules/dat.gui/build/dat.gui.module.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -38954,7 +38954,7 @@ var index = {
 };
 var _default = index;
 exports.default = _default;
-},{}],"node_modules/gsap/gsap-core.js":[function(require,module,exports) {
+},{}],"../node_modules/gsap/gsap-core.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -42876,7 +42876,7 @@ exports.Power3 = Power3;
 exports.Power2 = Power2;
 exports.Power1 = Power1;
 exports.Power0 = Power0;
-},{}],"node_modules/gsap/CSSPlugin.js":[function(require,module,exports) {
+},{}],"../node_modules/gsap/CSSPlugin.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -44295,7 +44295,7 @@ _gsapCore.gsap.utils.checkPrefix = _checkPropPrefix;
 });
 
 _gsapCore.gsap.registerPlugin(CSSPlugin);
-},{"./gsap-core.js":"node_modules/gsap/gsap-core.js"}],"node_modules/gsap/index.js":[function(require,module,exports) {
+},{"./gsap-core.js":"../node_modules/gsap/gsap-core.js"}],"../node_modules/gsap/index.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -44445,7 +44445,7 @@ TweenMaxWithCSS = gsapWithCSS.core.Tween;
 
 exports.TweenMax = TweenMaxWithCSS;
 exports.default = exports.gsap = gsapWithCSS;
-},{"./gsap-core.js":"node_modules/gsap/gsap-core.js","./CSSPlugin.js":"node_modules/gsap/CSSPlugin.js"}],"node_modules/three/examples/jsm/controls/OrbitControls.js":[function(require,module,exports) {
+},{"./gsap-core.js":"../node_modules/gsap/gsap-core.js","./CSSPlugin.js":"../node_modules/gsap/CSSPlugin.js"}],"../node_modules/three/examples/jsm/controls/OrbitControls.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -45290,7 +45290,7 @@ class MapControls extends OrbitControls {
 }
 
 exports.MapControls = MapControls;
-},{"three":"node_modules/three/build/three.module.js"}],"main.js":[function(require,module,exports) {
+},{"three":"../node_modules/three/build/three.module.js"}],"main.js":[function(require,module,exports) {
 "use strict";
 
 var THREE = _interopRequireWildcard(require("three"));
@@ -45469,7 +45469,7 @@ addEventListener('mousemove', function (event) {
   mouse.x = event.clientX / innerWidth * 2 - 1;
   mouse.y = -(event.clientY / innerHeight) * 2 + 1;
 });
-},{"three":"node_modules/three/build/three.module.js","dat.gui":"node_modules/dat.gui/build/dat.gui.module.js","gsap":"node_modules/gsap/index.js","three/examples/jsm/controls/OrbitControls.js":"node_modules/three/examples/jsm/controls/OrbitControls.js"}],"../../../.config/yarn/global/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"three":"../node_modules/three/build/three.module.js","dat.gui":"../node_modules/dat.gui/build/dat.gui.module.js","gsap":"../node_modules/gsap/index.js","three/examples/jsm/controls/OrbitControls.js":"../node_modules/three/examples/jsm/controls/OrbitControls.js"}],"../../../.config/yarn/global/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -45497,7 +45497,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49817" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "51533" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
