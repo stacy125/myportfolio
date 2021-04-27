@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "private": "true",
   "main": "main.js",
+  "type": "module",
   "module": "dist/module/index.js",
   "scripts": {
     "dev": "parcel index.html",
