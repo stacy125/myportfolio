@@ -7,7 +7,7 @@
   "module": "dist/module/index.js",
   "scripts": {
     "dev": "parcel index.html",
-    "build": "parcel build index.html",
+    "build": "parcel build main.js",
     "preview": "parcel preview"
   },
   "repository": {
