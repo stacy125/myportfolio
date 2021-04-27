@@ -1,15 +1,27 @@
 {
+  "name": "profile",
+  "version": "1.0.0",
+  "private": "true",
+  "main": "main.js",
+  "module": "dist/module/index.js",
   "scripts": {
     "dev": "parcel index.html",
     "build": "parcel build index.html",
     "preview": "parcel preview"
   },
-  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git + https://github.com/stacy125/myportfolio"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.0-beta.2"
+  },
   "dependencies": {
+    "@parcel/transformer-webextension": "^2.0.0-nightly.2151",
     "@types/dat.gui": "^0.7.6",
     "dat.gui": "^0.7.7",
     "gsap": "^3.6.1",
-    "parcel": "^2.0.0-beta.2",
+    "parcel-bundler": "^1.12.5",
     "surge": "^0.23.0",
     "three": "^0.128.0"
   }

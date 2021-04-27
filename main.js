@@ -1,5 +1,5 @@
 import * as THREE from 'three'
-import * as dat from 'dat.gui'
+import * as dat from './dat.gui.min.js'
 import gsap from 'gsap'
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js'
 
