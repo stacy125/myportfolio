@@ -7,17 +7,15 @@
   "module": "dist/module/index.js",
   "scripts": {
     "dev": "parcel ./dist/index.html",
-    "build": "parcel build ./dist/main.js",
+    "build": "parcel build main.js",
     "preview": "parcel preview",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d"
   },
   "repository": {
     "type": "git",
     "url": "git + https://github.com/stacy125/myportfolio"
   },
-  "devDependencies": {
-    "parcel": "^2.0.0-beta.2"
-  },
+  "devDependencies": {},
   "dependencies": {
     "@parcel/transformer-webextension": "^2.0.0-nightly.2151",
     "@types/dat.gui": "^0.7.6",
