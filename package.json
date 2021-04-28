@@ -6,8 +6,8 @@
   "type": "module",
   "module": "dist/module/index.js",
   "scripts": {
-    "dev": "parcel index.html",
-    "build": "parcel build main.js",
+    "dev": "parcel ./dist/index.html",
+    "build": "parcel build ./dist/main.js",
     "preview": "parcel preview",
     "deploy": "gh-pages -d dist"
   },
@@ -24,7 +24,6 @@
     "controls": "^0.7.5",
     "dat.gui": "^0.7.7",
     "examples": "^0.1.0",
-    "gh-pages": "^3.1.0",
     "gsap": "^3.6.1",
     "parcel-bundler": "^1.12.5",
     "surge": "^0.23.0",
