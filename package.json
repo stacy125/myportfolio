@@ -20,7 +20,9 @@
   "dependencies": {
     "@parcel/transformer-webextension": "^2.0.0-nightly.2151",
     "@types/dat.gui": "^0.7.6",
+    "controls": "^0.7.5",
     "dat.gui": "^0.7.7",
+    "examples": "^0.1.0",
     "gsap": "^3.6.1",
     "parcel-bundler": "^1.12.5",
     "surge": "^0.23.0",
