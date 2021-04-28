@@ -1,6 +1,6 @@
 import * as THREE from './node_modules/three'
 import * as dat from './node_modules/dat.gui'
-import gsap from './node_modules/gsap/all'
+import gsap from './node_modules/gsap/allg'
 import { OrbitControls } from './node_modules/three/examples/jsm/controls/OrbitControls.js'
 
 console.log('hello');
