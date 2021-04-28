@@ -1,5 +1,4 @@
-import * as dat from 'dat.gui'
-import gsap from 'gsap'
+
 
 
 console.log('hello');
