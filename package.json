@@ -1,10 +1,7 @@
 {
   "name": "profile",
   "version": "1.0.0",
-  "private": "true",
-  "main": "main.js",
-  "type": "module",
-  "module": "dist/module/index.js",
+  "main": "./dist/main.js",
   "scripts": {
     "dev": "parcel ./dist/index.html",
     "build": "parcel build main.js",
