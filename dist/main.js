@@ -2,7 +2,7 @@
 
 
 console.log('hello');
-console.log(dat);
+
 
 const raycaster = new THREE.Raycaster()
 const scene = new THREE.Scene()
