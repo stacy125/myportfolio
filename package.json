@@ -9,7 +9,7 @@
     "dev": "parcel ./dist/index.html",
     "build": "parcel build main.js",
     "preview": "parcel preview",
-    "deploy": "gh-pages -d"
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
