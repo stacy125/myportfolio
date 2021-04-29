@@ -16,7 +16,7 @@
 		type: 'end'
 	};
 
-	class OrbitControls extends THREE.EventDispatcher {
+	export default class OrbitControls extends THREE.EventDispatcher {
 
 		constructor( object, domElement ) {
 

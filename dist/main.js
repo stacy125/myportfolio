@@ -1,6 +1,7 @@
-
+import { OrbitControls } from './OrbitControls';
 
 console.log('hello');
+console.log(OrbitControls);
 
 
 const raycaster = new THREE.Raycaster()
