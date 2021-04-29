@@ -1,8 +1,8 @@
 
-
+import { OrbitControls } from "https://cdn.jsdelivr.net/npm/three@0.101.1/examples/js/controls/OrbitControls.js";
 
 console.log('hello');
-
+console.log(OrbitControls);
 
 const raycaster = new THREE.Raycaster()
 const scene = new THREE.Scene()
