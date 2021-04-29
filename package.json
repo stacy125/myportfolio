@@ -2,6 +2,7 @@
   "name": "profile",
   "version": "1.0.0",
   "main": "./dist/main.js",
+  "type": "module",
   "scripts": {
     "dev": "parcel ./dist/index.html",
     "build": "parcel build main.js",
