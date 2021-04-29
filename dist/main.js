@@ -1,5 +1,5 @@
-import * as Three from 'three'
-import oc from 'three-orbit-controls'
+
+
 
 const OrbitControls = oc(Three)
 
