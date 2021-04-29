@@ -1,7 +1,7 @@
-import { OrbitControls } from './OrbitControls';
+
 
 console.log('hello');
-console.log(OrbitControls);
+
 
 
 const raycaster = new THREE.Raycaster()
@@ -74,6 +74,8 @@ gui.add(world.plane, 'widthSegments', 1, 100).onChange(generatePlane)
 gui.add(world.plane, 'heightSegments', 1, 100).onChange(generatePlane)
 
 document.body.appendChild(renderer.domElement)
+
+const OrbitControls = require('three-orbit-controls')(THREE);
 
 const controls = new OrbitControls(camera, renderer.domElement)
 // const boxGeometry = new THREE.BoxGeometry(1, 1, 1)
