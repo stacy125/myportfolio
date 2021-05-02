@@ -4,9 +4,10 @@
   "main": "./dist/main.js",
   "type": "module",
   "scripts": {
-    "dev": "parcel ./dist/index.html",
-    "build": "parcel build main.js",
-    "preview": "parcel preview",
+    "dev": "./dist/index.html",
+    "start": "./dist/index.html",
+    "build": "build main.js",
+    "preview": "preview",
     "deploy": "gh-pages -d dist"
   },
   "repository": {
