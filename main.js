@@ -1,3 +1,7 @@
+class OrbitControls {
+    
+}
+
 console.log('hello');
 
 
