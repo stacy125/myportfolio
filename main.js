@@ -1,10 +1,4 @@
-class OrbitControls {
-    
-}
-
-console.log('hello');
-
-
+import {OrbitControls} from './OrbitControls.js'
 
 const raycaster = new THREE.Raycaster()
 const scene = new THREE.Scene()
@@ -30,18 +24,19 @@ function generatePlane() {
     )
 
     // vertices position randomization
-    const { array } = planeMesh.geometry.attributes.position
+    console.log(planeMesh);
+    const { array } = planeMesh.position
     const randomValues = []
-    for (let i = 0; i < array.length; i++) {
-        if (i % 3 === 0) {
-            const x = array[i]
-            const y = array[i + 1]
-            const z = array[i + 2]
+    // for (let i = 0; i < array.length; i++) {
+    //     if (i % 3 === 0) {
+    //         const x = array[i]
+    //         const y = array[i + 1]
+    //         const z = array[i + 2]
 
-            array[i] = x + (Math.random() - 0.5) * 3
-            array[i + 1] = y + (Math.random() - 0.5) * 3
-            array[i + 2] = z + Math.random() * 3
-        }
+    //         array[i] = x + (Math.random() - 0.5) * 3
+    //         array[i + 1] = y + (Math.random() - 0.5) * 3
+    //         array[i + 2] = z + Math.random() * 3
+    //     }
         randomValues.push(Math.random() * Math.PI * 2)
     }
 
@@ -58,7 +53,7 @@ function generatePlane() {
     planeMesh.geometry.setAttribute('color',
         new THREE.BufferAttribute(new Float32Array(colors), 3)
     )
-}
+// }
 
 const gui = new dat.GUI()
 const world = {
