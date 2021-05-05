@@ -75,6 +75,7 @@ gui.add(world.plane, 'heightSegments', 1, 100).onChange(generatePlane)
 document.body.appendChild(renderer.domElement)
 
 const controls = new OrbitControls(camera, renderer.domElement)
+console.log(controls, 'now');
 // const boxGeometry = new THREE.BoxGeometry(1, 1, 1)
 // const material = new THREE.MeshBasicMaterial({color: 0x00FF00})
 // const mesh = new THREE.Mesh(boxGeometry, material)
