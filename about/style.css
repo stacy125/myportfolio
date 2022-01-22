@@ -56,8 +56,8 @@ h1, h3 {
     position: static;
     height: 400px;
     width: 500px;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
     background-image: url(iguana.png);
     animation: slide 20s infinite;
     background-color: black;
